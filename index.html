@@ -37,7 +37,7 @@
 						<div class="hero-copy">
 	                        <h1 class="hero-title mt-0"><span class="auto-type"></span></h1>
 	                        <p class="hero-paragraph">Elevating Your Business Beyond Limits.</p>
-	                        <div class="hero-cta"><a class="button button-shadow" href="#book-section">Desgin Your Own</a><a class="button button-primary button-shadow" href="#features-section">Learn More</a></div>
+	                        <div class="hero-cta"><a class="button button-primary button-shadow" href="https://demo.codezero.ai">View Demo</a><a class="button button-shadow" href="#book-section">Desgin Your Own</a><a class="button button-primary button-shadow" href="#features-section">Learn More</a></div>
 						</div>
 						<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 						<script>
@@ -102,7 +102,7 @@
 								<script>
 									var animation = bodymovin.loadAnimation({
 										container: document.getElementById('iphone-animation'),
-										path: 'dist/images/Frame0_new.json',
+										path: 'dist/images/Main-Frame0.json',
 										render: 'svg',
 										loop: false,
 										autoplay: true,
@@ -354,7 +354,45 @@
 				<!-- Calendly inline widget end -->
 			</section>
 
-        </main>
+
+			<section id="About-Us-Section">
+				<div class="cs-container">
+					<div class="cs-content">
+						<div class="cs-flex">
+							<span class="cs-topper">About Us</span>
+							<h2 class="cs-title">Why CodeZero AI?</h2>
+						</div>
+						<p class="cs-text">
+							Based in Houston Texas with over 15 years experience in the software automation industry, Code Zero is now expanding into the growing AI field. With proven track record for our large scale clients, we excel in delivery of our promises.
+						</p>
+					</div>
+					<ul class="cs-card-group">
+						<li class="cs-item">
+							<img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/award.svg" alt="icon" width="48" height="48">
+							<h3 class="cs-h3">Expert Solutions</h3>
+							<p class="cs-item-text">
+								At CodeZero AI, our solutions delivery team is composed of dedicated experts. Our team's primary focus is to craft solutions that are finely tuned to meet the specific needs of the businesses we collaborate with.
+							</p>
+						</li>
+						<li class="cs-item">
+							<img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/sheild-black.svg" alt="icon" width="40" height="48">
+							<h3 class="cs-h3">Unparalleled Experience	</h3>
+							<p class="cs-item-text">
+								Our core strengths and extensive experience serve as the foundation of our success. When coupled with our unwavering dedication, these qualities enable us to empower our clients, positioning them for success.
+							</p>
+						</li>
+						<li class="cs-item">
+							<img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/call.svg" alt="icon" width="48" height="48">
+							<h3 class="cs-h3">Elevating Your Business</h3>
+							<p class="cs-item-text">
+								Our mission is clear: to elevate your business to new heights. By synergizing our team's expertise, experience, and dedication, we work tirelessly to help you exceed the boundaries of success.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+                                
+</main>
 
         <footer class="site-footer">
             <div class="container">
@@ -372,7 +410,7 @@
                             <a href="#">Contact</a>
                         </li>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="#About-Us-Section">About us</a>
                         </li>
                         <li>
                             <a href="#">FAQ's</a>
@@ -415,5 +453,21 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+	<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+	<script>
+	window.botpressWebChat.init({
+		"composerPlaceholder": "Chat with CodeZero AI",
+		"botConversationDescription": "This chatbot was built by CodeZero with love.",
+		"botId": "c92f1c18-7a43-4dcd-8a39-a17a62c13320",
+		"hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+		"messagingUrl": "https://messaging.botpress.cloud",
+		"clientId": "c92f1c18-7a43-4dcd-8a39-a17a62c13320",
+		"botName": "CodeZero AI",
+		"avatarUrl": "https://www.codezero.ai/dist/images/logo.png",
+		"website": "https://codezero.ai",
+		"stylesheet": "https://webchat-styler-css.botpress.app/prod/ce7fd48d-9aed-4adc-afd8-9c40d29dc790/v43953/style.css",
+		"showBotInfoPage": true
+	});
+</script>
 </body>
 </html>
